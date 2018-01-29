@@ -1,0 +1,29 @@
+{
+  "name": "pug-deps-loader",
+  "version": "1.0.0",
+  "description": "A pre-loader to add pug template dependencies as loader's deps without changing anything of the input.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HaoyCn/pug-deps-loader/"
+  },
+  "keywords": [
+    "pug",
+    "loader",
+    "webpack"
+  ],
+  "author": {
+    "name": "HaoyCn",
+    "email": "xuhaoyang@live.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaoyCn/pug-deps-loader/issues"
+  },
+  "peerDependencies": {
+    "pug": "^2.0.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
