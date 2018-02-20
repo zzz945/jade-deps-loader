@@ -1,6 +1,6 @@
 {
   "name": "pug-deps-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pre-loader to add pug template dependencies as loader's deps without changing anything of the input.",
   "main": "index.js",
   "repository": {
