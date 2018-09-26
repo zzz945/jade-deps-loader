@@ -1,7 +1,7 @@
-const pug = require('pug');
+const jade = require('jade');
 const loaderUtils = require('loader-utils');
 
-module.exports = function pugDependencies(content) {
+module.exports = function jadeDependencies(content) {
     if (this.cacheable) {
         this.cacheable();
     }
@@ -11,7 +11,7 @@ module.exports = function pugDependencies(content) {
     const vueOptions = this.options.__vueOptions__ && this.options.__vueOptions__.template;
     Object.assign(options, query, vueOptions);
 
-    const deps = pug.compileClientWithDependenciesTracked(content, options).dependencies;
+    const deps = jade.compileClientWithDependenciesTracked(content, options).dependencies;
     const len = deps.length;
     if (len) {
         for (let i = 0; i < len; i++) {

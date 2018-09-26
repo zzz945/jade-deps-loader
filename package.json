@@ -1,27 +1,27 @@
 {
-  "name": "pug-deps-loader",
-  "version": "1.0.1",
-  "description": "A pre-loader to add pug template dependencies as loader's deps without changing anything of the input.",
+  "name": "jade-deps-loader",
+  "version": "1.0.0",
+  "description": "A pre-loader to add jade template dependencies as loader's deps without changing anything of the input.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/HaoyCn/pug-deps-loader/"
+    "url": "git://github.com/zzz945/jade-deps-loader/"
   },
   "keywords": [
-    "pug",
+    "jade",
     "loader",
     "webpack"
   ],
   "author": {
-    "name": "HaoyCn",
-    "email": "xuhaoyang@live.com"
+    "name": "zhangdaiyan",
+    "email": "zhangdaiyan@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HaoyCn/pug-deps-loader/issues"
+    "url": "https://github.com/zzz945/jade-deps-loader/issues"
   },
   "peerDependencies": {
-    "pug": "^2.0.0-rc.4"
+    "jade": "^1.11.0"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"

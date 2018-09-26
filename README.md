@@ -1,6 +1,4 @@
-A pre-loader to add pug template dependencies as loader's deps without changing anything of the input.
-
-
+A pre-loader to add jade template dependencies as loader's deps without changing anything of the input.
 
 Use it like below:
 
@@ -10,14 +8,10 @@ Use it like below:
   loader: 'vue-loader',
   options: {
     preLoaders: {
-      pug: 'pug-deps-loader'
+      jade: 'jade-deps-loader'
     }
   }
 }
 ```
-
-
-
-
 
 Reference: https://github.com/vuejs/vue-loader/issues/1122
